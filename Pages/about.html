@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>OPG Sučić</title>
+        <link rel="stylesheet" href="../Styles/styles.css">
+        <link rel="stylesheet" href="../Styles/about-styles.css">
+        <script src="../Animation/about.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="../Images/Melis_logo.png" alt="logo" class="logo-image">
+                <a href="../Pages/index.html" class="logo">Melis</a>
+            </div>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="../Pages/index.html">Početna</a></li>
+                    <li><a href="#">O nama</a></li>
+                    <li><a href="../Pages/products.html">Proizvodi</a></li>
+                    <li><a href="../Pages/contact.html">Kontakt</a></li>
+                  </ul>
+            </nav>
+        </header>
+       
+        <section class="aboutus">
+            <div class="about">
+                <h1>O nama</h1>
+                <p>Obiteljsko pčelarsko gospodarstvo osnovano 2013. godine započelo je svoju priču od nule,<br>
+                    vođeno ljubavlju prema prirodi i pčelama. Uz mnogo truda, predanosti i učenja, gospodarstvo<br>
+                    se postupno razvijalo, preraslo početne izazove i proširilo svoj kapacitet na čak 60 košnica,<br>
+                    koje su smještene na dvije pažljivo odabrane lokacije.
+                </p>
+            </div> 
+
+        </section>
+        
+        <div onload="showDetails('kosnice')"></div>
+        <section class="hexagon-container">
+            <div class="hexagon" onclick="showDetails('kosnice')"><p>60 košnica</p></div>
+            <div class="hexagon" onclick="showDetails('lokacije')"><p>2 lokacije</p></div>
+            <div class="hexagon" onclick="showDetails('med')"><p>1.5 tone meda godišnje</p></div>
+            <div class="hexagon" onclick="showDetails('clanovi')"><p>5 članova</p></div>
+            <div class="hexagon" onclick="showDetails('osnovano')"><p>osnovano 2013.</p></div>
+        </section>
+
+        <div id="details" class="details-container">
+            <h2 id="details-title"></h2>
+            <div class="details-content">
+                <img id="details-image" src="" alt="details">
+                <p id="details-text"></p>
+            </div>
+        </div>
+          
+
+        <footer>
+            <div class="box-container">
+                <div class="box">
+                    <img src="../Images/Melis_logo.png" alt="logo">
+                </div>
+                <div class="box">
+                    <h3>Linkovi</h3> 
+                    <a href="../Pages/index.html">Početna</a>
+                    <a href="../Pages/about.html">O nama</a>
+                    <a href="../Pages/products.html">Proizvodi</a>
+                    <a href="../Pages/contact.html">Kontakt</a>
+                </div>
+                <div class="box">
+                    <h3>Narudžbe</h3>
+                    <p>Proizvode možete naručiti preko naše Facebook i <br>Instagram profila gdje se nalazi i cjenik proizvoda.</p>
+                    <img src="../Images/fb-ig.png" alt="fb-ig">
+                </div>
+            </div>
+            <div class="credit">&copy; 2025 OPG Sučić | Sva prava pridržana</div>
+        </footer>
+
+    </body>
+
+</html>

@@ -1,0 +1,84 @@
+.prod{
+    display: flex;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/products.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.prod h1{
+    margin-top: 100px;
+    font-size: 6rem;
+    color: #f2da89;
+}
+
+.products {
+    width: 90%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td{
+    vertical-align: middle;
+    padding: 8px; 
+}
+
+td:first-child{
+    width: 70%;
+}
+
+td:last-child{
+    width: 30%;
+}
+
+.prod-info{
+    color: #271a01;
+}
+.prod-info h1{
+    font-size: xx-large;
+    padding: 20px 0;
+}
+.prod-info p{
+    font-size: medium;
+    text-align: justify;
+}
+.slideshow{
+    position: relative;
+    margin: 0;
+}
+.slideshow .slide{
+    display: none;
+}
+.slideshow .prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    border-radius: 3px 0 0 3px;
+
+}
+.slideshow .next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.slideshow .prev:hover, .next:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+.slideshow .slide p{
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+.slideshow .slide img{
+    width: 100%;
+    height: auto;
+}

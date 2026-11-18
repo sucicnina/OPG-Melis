@@ -1,0 +1,32 @@
+.contact-container{
+    display: flex;
+    align-items: center;
+    color: #271a01;
+}
+
+.contact-container .info{
+    width: 45%;
+}
+
+.contact-container .info h1{
+    font-size: xx-large;
+}
+
+.contact-container .info p{
+    font-size: medium;
+    line-height: 1.5;
+}
+
+.contact-container .info pre{
+    font-size: medium;
+    line-height: 1.5;
+}
+
+.contact-container .map h1{
+    font-size: xx-large;
+}
+
+.contact-container .map iframe{
+    border: 5px solid #271a01;
+    border-radius: 8px;
+}

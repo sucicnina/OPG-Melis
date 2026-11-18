@@ -1,0 +1,96 @@
+.aboutus{
+    display: flex;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/beekeeping.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.aboutus .about{
+    margin-top: 200px;
+}
+
+.aboutus .about h1{
+    font-size: 6rem;
+    color: #f2da89;
+}
+
+.aboutus .about p{
+    font-size: 1.5rem;
+    color: #f2da89;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.hexagon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; 
+  }
+  
+.hexagon {
+    width: 240px;
+    height: 200px;
+    background-color: #edc73f;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+.hexagon:hover {
+    transform: scale(1.1);
+}
+  
+.hexagon p {
+    text-align: center;
+    color: #271a01;
+    padding: 10px;
+    font-size: medium;
+    margin: 0;
+}
+ 
+.details-container{
+    margin-top: 20px;
+    padding: 100px;
+    
+}
+
+.details-container h2{
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    color:#271a01;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.details-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+.details-content img{                                                                                                                        
+    flex: 1;
+    max-width: 30%;
+    max-height: 350px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+    
+}
+
+.details-container p{
+    flex: 1;
+    text-align: justify;
+    color: #271a01;
+    font-size: medium;
+    margin: 10px;
+    line-height: 1.5;
+}
